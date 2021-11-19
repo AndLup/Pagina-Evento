@@ -1,0 +1,50 @@
+
+html{box-sizing: border-box; 
+    font-size: 62.5%; 
+   } 
+    *, *:before, *:after{ 
+    box-sizing: inherit; 
+   }
+
+   body{
+       font-family: $fuentePrincipal;
+       font-size: 1.6rem;
+
+       &.fijar-body{
+           overflow: scroll;
+       }
+   }
+
+   p{
+       font-size: 2rem;
+       color: $negro;
+   }
+
+   .contenedor{
+       max-width: 120rem;
+       width: 95%;
+       margin: auto;
+   }
+
+   a{
+       text-decoration: none;
+   }
+
+   img{
+       max-width: 100%;
+   }
+
+   h1{
+       font-size: 4rem;
+   }
+   h2{
+       font-size: 3.6rem;
+   }
+
+h3{
+    font-size: 3rem;
+}
+
+h1, h2, h3{
+    margin: 0;
+}
